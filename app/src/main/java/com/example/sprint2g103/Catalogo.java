@@ -21,7 +21,7 @@ public class Catalogo extends AppCompatActivity {
         setContentView(R.layout.activity_catalogo);
 
         arrayProducts = new ArrayList<>();
-        //Creacion
+        //Creacion de productos manuales
         Product product1 = new Product("Producto 1", "Descripcion 1", 1000, R.drawable.pp1 );
         Product product2 = new Product("Producto 2", "Descripcion 2", 2000, R.drawable.pp2 );
         Product product3 = new Product("Producto 3", "Descripcion 3", 3000, R.drawable.pp3 );
